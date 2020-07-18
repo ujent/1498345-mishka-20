@@ -25,7 +25,6 @@
     </header>
     <main class="page-main">
       <h1 class="page-main__title">Каталог товаров</h1>
-
       <section class="catalog">
         <h2 class="visually-hidden">Список товаров</h2>
         <ul class="catalog__list">
@@ -43,7 +42,7 @@
             <p class="catalog__item__description">
               Рост 30 см, вес 200 г
             </p>
-            <p class="catalog__item__price">1 200 руб.</p>
+            <span class="catalog__item__price">1 200 руб.</span>
             <button class="button button--buy" type="button">В корзину</button>
           </li>
           <li class="catalog__item">
@@ -60,7 +59,7 @@
             <p class="catalog__item__description">
               Диаметр 15 см, высота 10 см
             </p>
-            <p class="catalog__item__price">690 руб.</p>
+            <span class="catalog__item__price">690 руб.</span>
             <button class="button button--buy" type="button">В корзину</button>
           </li>
           <li class="catalog__item">
@@ -79,7 +78,7 @@
             <p class="catalog__item__description">
               Диаметр 30 см, высота 30 см
             </p>
-            <p class="catalog__item__price">1 500 руб.</p>
+            <span class="catalog__item__price">1 500 руб.</span>
             <button class="button button--buy" type="button">В корзину</button>
           </li>
         </ul>
@@ -91,22 +90,22 @@
           <a
             class="social__link social__link--instagram"
             href="https://www.instagram.com/htmlacademy"
-            >Мы в Инстаграме</a
-          >
+            aria-label="Мы в Инстаграме"
+          ></a>
         </li>
         <li class="social__item">
           <a
             class="social__link social__link--facebook"
             href="https://www.facebook.com/htmlacademy"
-            >Мы в Фейсбуке</a
-          >
+            aria-label="Мы в Фейсбуке"
+          ></a>
         </li>
         <li class="social__item">
           <a
             class="social__link social__link--vkontakte"
             href="https://twitter.com/htmlacademy_ru"
-            >Мы в Твитер</a
-          >
+            aria-label="Мы в Твитер"
+          ></a>
         </li>
       </ul>
       <div class="page-footer__copyright copyright">
@@ -114,8 +113,8 @@
         <a
           class="copyright__link"
           href="https://htmlacademy.ru/intensive/adaptive"
-          >HTML Academy</a
-        >
+          aria-label="HTML Academy"
+        ></a>
       </div>
     </footer>
   </body>
