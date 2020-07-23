@@ -3,6 +3,11 @@
   <head>
     <meta charset="utf-8" />
     <title>HTML Academy: Мишка</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/style.css" />
   </head>
   <body class="page__body">
     <header class="page-header">
@@ -24,28 +29,34 @@
       </nav>
     </header>
     <main class="page-main">
-      <h1 class="page-main__title page-main__title--index">
-        Милые штуки ручной работы для дома
-      </h1>
-      <section>
+      <div class="page-main__title-wrapper page-main__title-wrapper--index">
+        <h1 class="page-main__title page-main__title--index">
+          Милые штуки ручной работы для дома
+        </h1>
+      </div>
+      <section class="catalog-menu">
         <h2 class="visually-hidden">
           Меню каталога
         </h2>
-        <ul class="catalog-menu">
+        <ul class="catalog-menu__list">
           <li class="catalog-menu__item">
             <a
               href="blank.html"
-              class="catalog-menu__link catalog-menu__link-interior"
+              class="catalog-menu__link catalog-menu__link--interior"
             >
-              <h3 class="catalog-menu__title">Предметы интерьера</h3>
+              <h3 class="catalog-menu__title catalog-menu__title--interior">
+                Предметы интерьера
+              </h3>
             </a>
           </li>
           <li class="catalog-menu__item">
             <a
               href="blank.html"
-              class="catalog-menu__link catalog-menu__link-toys"
+              class="catalog-menu__link catalog-menu__link--toys"
             >
-              <h3 class="catalog-menu__title">Детские игрушки</h3>
+              <h3 class="catalog-menu__title catalog-menu__title--toys">
+                Детские игрушки
+              </h3>
             </a>
           </li>
         </ul>
@@ -79,8 +90,12 @@
           height="315"
           alt="Фото вязаных корзинок"
         />
-        <p class="featured-product__price">Цена: 990 руб.</p>
-        <button class="button" type="button">Заказать</button>
+        <div class="featured-product__price">
+          <p>Цена: 990 руб.</p>
+        </div>
+        <button class="button featured-product__order-button" type="button">
+          Заказать
+        </button>
       </section>
       <section class="intro">
         <h2 class="intro__title">
@@ -199,6 +214,7 @@
           ></a>
         </li>
       </ul>
+      <hr class="page-footer__delimiter" />
       <div class="page-footer__copyright copyright">
         <b class="copyright__text">Разработано:</b>
         <a

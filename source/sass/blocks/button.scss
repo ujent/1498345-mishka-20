@@ -1,0 +1,30 @@
+.button {
+  font: inherit;
+  font-weight: bold;
+  font-size: 17px;
+  line-height: 20px;
+  text-align: center;
+
+  background-color: $additional-font-color-3;
+  border: 2px solid $main-font-color;
+  padding: 16px 0;
+
+  cursor: pointer;
+
+  &:hover,
+  &:focus {
+    color: $additional-font-color-3;
+    background: linear-gradient(0deg, $main-font-color, $main-font-color);
+  }
+
+  &:active {
+    background: linear-gradient(0deg, $main-font-color, $main-font-color);
+    color: $additional-font-color-3-down;
+  }
+
+  &--buy {
+    border: none;
+    width: 21px;
+    height: 18px;
+  }
+}

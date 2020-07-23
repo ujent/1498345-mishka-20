@@ -1,0 +1,29 @@
+$main-brand-color: #63d1bb;
+$main-brand-color-hvr: #59d5bc;
+$additional-brand-color: #56c3b2;
+$additional-brand-color-hvr: #46c1ae;
+
+$main-icon-base: #149080;
+$main-icon-background: rgba($main-icon-base, 0.5);
+$main-icon-background-hvr: rgba($main-icon-base, 0.7);
+$main-icon-background-down: rgba($main-icon-base, 0.3);
+$additional-icon-background: rgba(#000000, 0.2);
+
+$main-font-color: #444444;
+$additional-font-color-1: #000000;
+$additional-font-color-1-hvr: rgba($additional-font-color-1, 0.6);
+$additional-font-color-1-down: rgba($additional-font-color-1, 0.3);
+$additional-font-color-2: #010000;
+$additional-font-color-3: #ffffff;
+$additional-font-color-3-down: rgba($additional-font-color-3, 0.3);
+
+$main-link-decoration-color: #62d1ba;
+$main-link-decoration-color-hvr: $additional-brand-color-hvr;
+$main-link-decoration-color-down: rgba($additional-brand-color-hvr, 0.1);
+
+$main-background-color: #f1f1f1;
+$additional-background-color: #fafafa;
+$main-border-color: #ececec;
+$main-shadow-color: rgba(0, 0, 0, 0.1);
+
+$delimiter-color: #e5e5e5;

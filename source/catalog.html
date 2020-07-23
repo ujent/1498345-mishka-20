@@ -3,6 +3,11 @@
   <head>
     <meta charset="utf-8" />
     <title>HTML Academy: Мишка</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/style.css" />
   </head>
   <body class="page__body">
     <header class="page-header">
@@ -24,12 +29,13 @@
       </nav>
     </header>
     <main class="page-main">
-      <h1 class="page-main__title">Каталог товаров</h1>
+      <div class="page-main__title-wrapper">
+        <h1 class="page-main__title">Каталог товаров</h1>
+      </div>
       <section class="catalog">
         <h2 class="visually-hidden">Список товаров</h2>
         <ul class="catalog__list">
           <li class="catalog__item">
-            <h3><a href="blank.html">Зайчик-попрыгайчик</a></h3>
             <a href="blank.html">
               <img
                 class="catalog__item__photo"
@@ -39,14 +45,25 @@
                 alt="Фото Зайчика-попрыгайчика"
               />
             </a>
-            <p class="catalog__item__description">
-              Рост 30 см, вес 200 г
-            </p>
-            <span class="catalog__item__price">1 200 руб.</span>
-            <button class="button button--buy" type="button">В корзину</button>
+            <div class="catalog__item-wrapper">
+              <h3 class="catalog__item__title">
+                <a href="blank.html" class="catalog__link"
+                  >Зайчик-попрыгайчик</a
+                >
+              </h3>
+              <p class="catalog__item__description">
+                Рост 30 см, вес 200 г
+              </p>
+              <hr class="catalog__delimiter" />
+              <span class="catalog__item__price">1 200 руб.</span>
+              <button
+                class="button button--buy"
+                type="button"
+                aria-label="В корзину"
+              ></button>
+            </div>
           </li>
           <li class="catalog__item">
-            <h3><a href="blank.html">Корзинка для белья</a></h3>
             <a href="blank.html">
               <img
                 class="catalog__item__photo"
@@ -56,16 +73,25 @@
                 alt="Фото Корзинки для белья"
               />
             </a>
-            <p class="catalog__item__description">
-              Диаметр 15 см, высота 10 см
-            </p>
-            <span class="catalog__item__price">690 руб.</span>
-            <button class="button button--buy" type="button">В корзину</button>
+            <div class="catalog__item-wrapper">
+              <h3 class="catalog__item__title">
+                <a href="blank.html" class="catalog__link"
+                  >Корзинка для белья</a
+                >
+              </h3>
+              <p class="catalog__item__description">
+                Диаметр 15 см, высота 10 см
+              </p>
+              <hr class="catalog__delimiter" />
+              <span class="catalog__item__price">690 руб.</span>
+              <button
+                class="button button--buy"
+                type="button"
+                aria-label="В корзину"
+              ></button>
+            </div>
           </li>
           <li class="catalog__item">
-            <h3>
-              <a href="blank.html">Большая корзинка для игрушек</a>
-            </h3>
             <a href="blank.html">
               <img
                 class="catalog__item__photo"
@@ -75,11 +101,23 @@
                 alt="Фото Большой корзинки"
               />
             </a>
-            <p class="catalog__item__description">
-              Диаметр 30 см, высота 30 см
-            </p>
-            <span class="catalog__item__price">1 500 руб.</span>
-            <button class="button button--buy" type="button">В корзину</button>
+            <div class="catalog__item-wrapper">
+              <h3 class="catalog__item__title">
+                <a href="blank.html" class="catalog__link"
+                  >Большая корзинка для игрушек</a
+                >
+              </h3>
+              <p class="catalog__item__description">
+                Диаметр 30 см, высота 30 см
+              </p>
+              <hr class="catalog__delimiter" />
+              <span class="catalog__item__price">1 500 руб.</span>
+              <button
+                class="button button--buy"
+                type="button"
+                aria-label="В корзину"
+              ></button>
+            </div>
           </li>
         </ul>
       </section>
@@ -108,6 +146,7 @@
           ></a>
         </li>
       </ul>
+      <hr class="page-footer__delimiter" />
       <div class="page-footer__copyright copyright">
         <b class="copyright__text">Разработано:</b>
         <a

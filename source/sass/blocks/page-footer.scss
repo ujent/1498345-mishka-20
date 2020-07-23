@@ -1,0 +1,10 @@
+.page-footer {
+  min-height: 160px;
+  background-color: $main-background-color;
+  padding: 25px 30px 23px 30px;
+
+  &__delimiter {
+    border: 1px solid $delimiter-color;
+    margin: 27px 0 29px 0;
+  }
+}

@@ -1,0 +1,38 @@
+.catalog-menu {
+  &__list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+
+  &__link {
+    text-decoration: none;
+  }
+
+  &__title {
+    color: $additional-font-color-3;
+    font-weight: bold;
+    font-size: 19px;
+    line-height: 24px;
+
+    margin: 0;
+    padding: 24px 160px 30px 30px;
+    background-color: $main-brand-color;
+  }
+
+  &__title:hover,
+  &__title:focus,
+  &__title:active {
+    background-color: $main-brand-color-hvr;
+  }
+
+  &__title--toys {
+    background-color: $additional-brand-color;
+  }
+
+  &__title--toys:hover,
+  &__title--toys:focus,
+  &__title--toys:active {
+    background-color: $additional-brand-color-hvr;
+  }
+}

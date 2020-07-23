@@ -1,0 +1,62 @@
+.featured-product {
+  padding: 31px 30px 36px 30px;
+
+  &__header {
+    margin-bottom: 17px;
+  }
+
+  &__title {
+    color: $additional-font-color-1;
+    font-weight: bold;
+    font-size: 25px;
+    line-height: 30px;
+
+    margin: 0;
+    margin-bottom: 3px;
+  }
+
+  &__accent {
+    color: $main-brand-color;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 17px;
+    line-height: 20px;
+  }
+
+  &__description {
+    font-size: 15px;
+    line-height: 24px;
+  }
+
+  &__info-list {
+    font-size: 15px;
+    line-height: 20px;
+  }
+
+  &__info-item {
+    display: flex;
+    border-bottom: 1px solid $main-border-color;
+    padding: 12px 0;
+  }
+
+  &__info-label {
+    min-width: 97px;
+  }
+
+  &__info-value {
+    margin: 0;
+  }
+
+  &__price {
+    font-size: 17px;
+    line-height: 24px;
+    font-weight: bold;
+    text-align: center;
+
+    margin: 24px 0;
+  }
+
+  &__order-button {
+    width: 100%;
+  }
+}
